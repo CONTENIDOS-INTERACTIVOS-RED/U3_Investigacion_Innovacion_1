@@ -268,6 +268,23 @@
           .col-lg-5
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/29.png', alt='')
+    .bg-full-width.bg-color-2.mb-lg-5(style="background-color: #E7EFF8 ")
+      .px-4.p-md-5
+        .row.justify-content-center.align-items-center
+          .col-lg-7.order-2
+            h2.mb-4(data-aos="flip-up") Integración de Metodologías
+            p.mb-4(data-aos="fade-right") Se invita a leer el documento Integración de Metodologías, que aborda la complementariedad de Lean Startup y Design Thinking, casos de éxito, la adaptación al contexto colombiano, herramientas de análisis de datos y gestión ágil de proyectos, destacando estrategias prácticas para impulsar la innovación con un enfoque adaptado y sostenible.
+
+
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+              .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                img(src="@/assets/template/icono-pdf.svg")
+              .anexo__texto
+                p <strong>Anexo. </strong> Integración de Metodologías.
+
+          .col-lg-5
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/59.png', alt='')
     
 
 
