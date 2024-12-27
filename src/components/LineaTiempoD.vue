@@ -14,7 +14,7 @@
           .indicador__container(v-if="mostrarIndicador && index === 1")
             .indicador--click
           span(v-html="item.numero")
-        .linea-tiempo-d__item__dots(
+        .linea-tiempo-d__item__dots.d-none(
           v-if="index < elements.length -1"
         )
   
