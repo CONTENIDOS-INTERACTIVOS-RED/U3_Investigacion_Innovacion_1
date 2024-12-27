@@ -15,26 +15,32 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Bioética aplicada al desarrollo económico sostenible',
+        titulo: 'Diseño de Proyectos de Investigación – Innovación',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Definición del desarrollo económico sostenible',
+            titulo: 'Identificación de oportunidades',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Principios bioéticos en el uso de los recursos naturales',
+            titulo: 'Importancia de la detección de necesidades',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Casos de éxito en desarrollo económico sostenible',
+            titulo: 'Fomento de la creatividad',
             hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Diseño y planificación',
+            hash: 't_1_4',
           },
         ],
       },
@@ -42,30 +48,20 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo:
-          'El rol de las políticas globales en la protección de los derechos humanos y los recursos naturales',
+        titulo: 'Herramientas para la Gestión de la Innovación',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo:
-              'Marco ético y legal de las políticas globales de sostenibilidad',
+            titulo: '<em>Lean Startup</em>',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo:
-              'Legislación internacional y local, sobre derechos humanos y recursos naturales',
+            titulo: '<em>Design Thinking</em>',
             hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo:
-              'Responsabilidad social de las empresas en la protección de recursos naturales',
-            hash: 't_2_3',
           },
         ],
       },
@@ -73,28 +69,8 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Ética en la innovación y desarrollo tecnológico',
+        titulo: 'Aplicación sectorial',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Innovación sostenible',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Tecnologías sostenibles y nuevas tendencias',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Privacidad y seguridad de datos',
-            hash: 't_3_3',
-          },
-        ],
       },
       {
         nombreRuta: 'sintesis',

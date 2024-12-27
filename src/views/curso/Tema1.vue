@@ -150,6 +150,13 @@
           p.mb-0 Este enfoque asegura un proceso creativo enriquecedor, colaborativo y alineado con los objetivos del proyecto, maximizando el impacto de las ideas generadas.
     h3 Brainstorming o lluvia de ideas
     p.mb-4 La lluvia de ideas, conocida también como brainstorming, es una técnica creativa utilizada para generar soluciones innovadoras en equipo. Su propósito es fomentar la libre expresión de ideas, sin juicios ni restricciones, promoviendo un ambiente donde cada participante pueda contribuir con propuestas originales, por más inusuales que parezcan. Es una herramienta clave para impulsar la creatividad colectiva y resolver desafíos de manera colaborativa.
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/au.svg', alt='')
+      .col-lg-6
+        TarjetaAudio.color-secundario.mb-3(
+          texto="Proceso de descarga de MySQL Server Community y MySQL Workbench"
+          :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+        )
     //todo! Añadir AUDIO CARD 
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.4 Diseño y planificación

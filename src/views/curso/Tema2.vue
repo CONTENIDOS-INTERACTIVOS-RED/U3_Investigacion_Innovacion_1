@@ -113,13 +113,25 @@
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.2 Design Thinking
     p.mb-4 El proceso de Design Thinking se estructura en cinco etapas clave, las cuales guían la creación de soluciones innovadoras centradas en el usuario. Cada una de estas etapas fomenta un enfoque iterativo, flexible y colaborativo.
-    ImagenInfografica.color-secundario.mb-5
+    ImagenInfografica.color-primario.mb-5
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/43.svg', alt='Texto que describa la imagen')
-      .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="1")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor Curabitur vestibulum tortor quis nisi
+      .tarjeta.bg-white.p-3(x="19.5%" y="68%" numero="+")
+        .h5.mb-2 Empatizar
+        p Comprender profundamente a los usuarios mediante observación, entrevistas y análisis del contexto, para identificar necesidades explícitas e implícitas.
+      .tarjeta.bg-white.p-3(x="26.7%" y="31%" numero="+")
+        .h5.mb-2 Definir
+        p Sintetizar los insights obtenidos en problemas claros y accionables, que sirvan como punto de partida para generar soluciones significativas.
+      .tarjeta.bg-white.p-3(x="47.3%" y="12.3%" numero="+")
+        .h5.mb-2 Idear
+        p Generar una amplia gama de ideas y posibles soluciones, fomentando la creatividad y el pensamiento divergente para abordar los problemas identificados.
+      .tarjeta.bg-white.p-3(x="68.6%" y="31%" numero="+")
+        .h5.mb-2 Prototipar
+        p Construir representaciones simples y tangibles de las ideas más prometedoras para explorar y validar su viabilidad con los usuarios.
+      .tarjeta.bg-white.p-3(x="71.6%" y="68%" numero="+")
+        .h5.mb-2 Testear
+        p Evaluar los prototipos con usuarios reales, recoger retroalimentación valiosa e iterar sobre las soluciones para perfeccionarlas y alinearlas mejor con las necesidades detectadas.
     h3 Empatizar con usuarios
     p.mb-4 La etapa de empatizar es fundamental para comprender el contexto, las emociones y las motivaciones de los usuarios.
     .bg-full-width.bg-slyder.p-5.mb-5
