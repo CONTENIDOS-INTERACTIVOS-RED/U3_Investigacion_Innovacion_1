@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno(:subTitulo="'1. Diseño de Proyectos de Investigación – Innovación'")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
+  .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.overflow-hidden
     .bg-color-1.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
         .col-lg
@@ -10,14 +10,14 @@
         .col-lg-auto
           figure
             img(src='@/assets/curso/temas/3.png', alt='')
-    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+    .titulo-figura.color-acento-contenido(data-aos='fade-right')
       h5 Figura 1.
       span Elementos esenciales de los proyectos de investigación- innovación
     img(src='@/assets/curso/temas/4.svg', alt='')
     figcaption  Fuente. El Autor, 2024.
-    Separador 
-    #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.1 Identificación de oportunidades
+     
+    #t_1_1.titulo-segundo(data-aos='fade-right').mt-5
+      h2 #[span 1.1] Identificación de oportunidades
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
         .bg-color-2.p-4.h-100(data-aos="fade-left").mb-4
@@ -47,11 +47,11 @@
                   h3.mb-1 Las 5 fuerzas de Porter
                   p Para profundizar en los conocimientos sobre proyectos de investigación e innovación, se recomienda explorar el siguiente video:
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    span Descargar
+                  a.boton.color-acento-botones(href="https://youtu.be/Th7L-Mqidc8" target="_blank")
+                    span Ver video
                     i.fas.fa-arrow-right
-    #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.2 Importancia de la detección de necesidades
+    #t_1_2.titulo-segundo(data-aos='fade-right')
+      h2 #[span 1.2] Importancia de la detección de necesidades
     p.mb-4 El proceso de identificar necesidades latentes y tendencias emergentes es clave para desarrollar proyectos innovadores. Este enfoque permite no solo responder a demandas existentes, sino anticiparse a futuras exigencias del mercado o sector de trabajo. Para ello, se requiere una combinación de metodologías cualitativas y cuantitativas que ofrezcan una visión integral del panorama.
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-3.mb-4(data-aos="zoom-in-up")
@@ -98,15 +98,15 @@
         p.mb-0 Un ejemplo aplicado sería la creación de una plataforma de inteligencia colectiva que utilice herramientas como crowdsourcing y machine learning para recopilar, categorizar y priorizar necesidades emergentes de usuarios. Esta integración de datos en tiempo real permite responder rápidamente a las demandas dinámicas de un público objetivo, creando un ecosistema adaptable y efectivo para la innovación.
       .col-lg-4.col-7
         img(src="@/assets/curso/temas/12.png", style="max-width: 100%")
-    #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.3 Fomento de la creatividad
+    #t_1_3.titulo-segundo(data-aos='fade-right')
+      h2 #[span 1.3] Fomento de la creatividad
     p.mb-4 El desarrollo de la creatividad requiere un enfoque estructurado que combine pensamiento divergente (ampliar posibilidades) y convergente (refinar y seleccionar ideas). Este equilibrio fomenta la generación de soluciones innovadoras y viables.
     TabsB.color-acento-contenido.mb-5
-      .py-4.py-md-5(titulo="Design Thinking" :icono="require('@/assets/curso/temas/13.svg')" style="background-color: #F3F3F3 ")
+      .py-4.py-md-5(titulo="<em>Design Thinking</em>" :icono="require('@/assets/curso/temas/13.svg')" style="background-color: #F3F3F3 ")
         .row.justify-content-center.mb-5
           .col-lg-4.col-7.mb-lg-0.mb-3: img(src="@/assets/curso/temas/14.png", style="max-width: 100%")
           .col-lg-7
-            h4 Design Thinking
+            h4 #[em Design Thinking]
             p.mb-0 Metodología centrada en el usuario que promueve la creación de soluciones basadas en empatía y prototipado.
       .py-4.py-md-5(titulo="SCAMPER" :icono="require('@/assets/curso/temas/13.svg')" style="background-color: #F3F3F3 ")
         .row.justify-content-center.mb-5
@@ -153,13 +153,14 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/au.svg', alt='')
       .col-lg-6
-        TarjetaAudio.color-secundario.mb-3(
-          texto="Proceso de descarga de MySQL Server Community y MySQL Workbench"
+        TarjetaAudio.color-primario.bg-color-white.mb-3(
+          texto="<em>Brainstorming</em> o lluvia de ideas"
+          tiempo="00:00"
           :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
         )
     //todo! Añadir AUDIO CARD 
-    #t_1_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.4 Diseño y planificación
+    #t_1_4.titulo-segundo(data-aos='fade-right')
+      h2 #[span 1.4] Diseño y planificación
     p.mb-4 El diseño de un plan de acción incluye dividir el proyecto en tareas claras, establecer cronogramas, identificar hitos y definir entregables. Este proceso asegura la ejecución eficiente y el control de cada fase del proyecto.
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-3.mb-4(data-aos="zoom-in-up")
@@ -217,7 +218,7 @@
             h2.mb-4(data-aos="flip-up") Implementación 
             p.mb-4(data-aos="fade-right") Se invita a revisar los pasos esenciales para la implementación, seguimiento y evaluación de proyectos, destacando la organización inicial, pruebas piloto y control continuo mediante métricas y revisión de hitos. La evaluación final aborda resultados económicos, sociales, ambientales y operativos, garantizando el cumplimiento de los objetivos propuestos.
 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexos_Implementacion.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -259,14 +260,14 @@
             figure
               img(src='@/assets/curso/temas/28.png', alt='Texto que describa la imagen')
     p.mb-4 Este enfoque detallado asegura que la implementación sea eficiente, el monitoreo y control sean proactivos y los aprendizajes permitan una mejora continua en futuras iniciativas.
-    .bg-full-width.bg-color-2.mb-lg-5(style="background-color: #E7EFF8 ")
+    .bg-full-width.bg-color-2(style="background-color: #E7EFF8 ")
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-7.order-2
             h2.mb-4(data-aos="flip-up") Marco Legal y Ético
             p.mb-4(data-aos="fade-right") Se invita a leer el documento Marco Legal y Ético , que destaca la protección de la propiedad intelectual y la integración de principios éticos en proyectos de innovación, promoviendo estrategias legales y una responsabilidad social sostenida.
 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_Marco_Legal_y_Etico.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -275,29 +276,51 @@
           .col-lg-5
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/29.png', alt='')
-    .bg-full-width.bg-color-2.mb-lg-5(style="background-color: #E7EFF8 ")
-      .px-4.p-md-5
-        .row.justify-content-center.align-items-center
-          .col-lg-7.order-2
-            h2.mb-4(data-aos="flip-up") Integración de Metodologías
-            p.mb-4(data-aos="fade-right") Se invita a leer el documento Integración de Metodologías, que aborda la complementariedad de Lean Startup y Design Thinking, casos de éxito, la adaptación al contexto colombiano, herramientas de análisis de datos y gestión ágil de proyectos, destacando estrategias prácticas para impulsar la innovación con un enfoque adaptado y sostenible.
 
 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
-              .anexo__icono(:style="{'background-color': '#FCDFDB'}")
-                img(src="@/assets/template/icono-pdf.svg")
-              .anexo__texto
-                p <strong>Anexo. </strong> Integración de Metodologías.
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
 
-          .col-lg-5
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/temas/59.png', alt='')
-    
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/Th7L-Mqidc8" target="_blank" rel="noopener noreferrer") CEDU Uninorte. (2021, marzo 23). Módulo 3 - Lección 1: Las 5 fuerzas de Porter. Caso de aplicación: Parte 1
 
+            //- Referencias con enlace
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/218471?page=3" target="_blank" rel="noopener noreferrer") Aznar Díaz, I. Rodríguez Jiménez, C. & Ramos Navas-Parejo, M. (2021). Desafíos de la investigación y la innovación educativa ante la sociedad inclusiva: (1 ed.). Dykinson.
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/158312?page=6" target="_blank" rel="noopener noreferrer") Fernández Batanero, J. M. (2020). TIC y discapacidad: investigación e innovación educativa: ( ed.). Ediciones Octaedro, S.L.
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/127379" target="_blank" rel="noopener noreferrer") García Cuevas, J. L. González Pérez, M. & Cabrera Miranda, J. R. (2020). Gestión universitaria del conocimiento y la innovación para el desarrollo local sostenible: ( ed.). Editorial Universitaria.
 
-    
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/229656?page=1" target="_blank" rel="noopener noreferrer") Gregorio Rojas, N. (2023). Metodología de la investigación para anteproyectos: (1 ed.). Universidad Abierta para Adultos (UAPA).
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/127961" target="_blank" rel="noopener noreferrer") Herrera Lemus, K. C. & Lazcano Herrera, C. F. (2020). Desarrollo de ambientes óptimos de innovación en la relación universidad-empresa: ( ed.). Editorial Universitaria.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/271726" target="_blank" rel="noopener noreferrer") Hervás-Gómez, C. (Coord.), Díaz-Noguera, M. D. (Coord.) & Florina Grosu, E. (Coord.). (2024). Transformando la educación: tecnología, innovación y sociedad en la era digital: (1 ed.). Dykinson.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/218623?page=3" target="_blank" rel="noopener noreferrer") Marín Marín, J. A. & Boffo, A. (2021). Retos de la investigación y la innovación en la sociedad del conocimiento: (1 ed.). Dykinson.
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 </template>
 

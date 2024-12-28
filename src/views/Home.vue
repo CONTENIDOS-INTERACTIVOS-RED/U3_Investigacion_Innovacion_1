@@ -22,7 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 El diseño de proyectos de investigación e innovación incluye identificar oportunidades mediante análisis como PESTEL y las 5 fuerzas de Porter, detectar necesidades con entrevistas y vigilancia tecnológica, y fomentar la creatividad con Design Thinking. La viabilidad se evalúa en dimensiones técnicas, económicas, operativas y estratégicas, considerando impactos económicos, sociales y ambientales.  La planificación se basa en objetivos SMART y asignación de recursos, mientras que la implementación requiere seguimiento constante. Herramientas clave como Lean Startup y Design Thinking facilitan la gestión. Su aplicación en sectores como tecnología impulsa casos exitosos como Rappi y Platzi.
+              p.descripcion.mb-4 El diseño de proyectos de investigación e innovación incluye identificar oportunidades mediante análisis como PESTEL y las 5 fuerzas de Porter, detectar necesidades con entrevistas y vigilancia tecnológica, y fomentar la creatividad con #[em Design Thinking]. La viabilidad se evalúa en dimensiones técnicas, económicas, operativas y estratégicas, considerando impactos económicos, sociales y ambientales.  La planificación se basa en objetivos SMART y asignación de recursos, mientras que la implementación requiere seguimiento constante. Herramientas clave como #[em Lean Startup] y #[em Design Thinking] facilitan la gestión. Su aplicación en sectores como tecnología impulsa casos exitosos como Rappi y Platzi.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
@@ -104,7 +104,7 @@ export default {
         background-color: $color-acento-botones
         padding: 12px 42px 12px 32px
         width: 100%
-        color: #fff !important
+        color: #000 !important
     .icon
       background-color: $color-sistema-e
       padding: 0px 20px

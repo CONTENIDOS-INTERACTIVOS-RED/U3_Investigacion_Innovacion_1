@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno(:subTitulo="'2. Herramientas para la Gestión de la Innovación'")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.overflow-hidden
     .bg-color-1.mb-5(data-aos="fade-up" style="background-color: #E6FBF1")
       .row.justify-content-center.align-items-center
         .col-lg
@@ -10,13 +10,13 @@
         .col-lg-auto
           figure
             img(src='@/assets/curso/temas/30.png', alt='')
-    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+    .titulo-figura.color-acento-contenido(data-aos='fade-right')
       h5 Figura 2.
       span Herramientas para la gestión de proyectos de investigación e innovación.
     img(src='@/assets/curso/temas/31.svg', alt='')
     figcaption.mb-5 Fuente. El Autor, 2024.
-    #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.1 Lean Startup
+    #t_2_1.titulo-segundo(data-aos='fade-right').mt-5
+      h2 #[span 2.1] Lean Startup
     p.mb-4 El enfoque Lean Startup se basa en tres pilares esenciales: la creación de un Producto Mínimo Viable (MVP), la medición de resultados mediante métricas accionables y el aprendizaje continuo para decidir entre pivotar o mantener la dirección estratégica. Este enfoque minimiza los desperdicios y maximiza las oportunidades de aprendizaje, centrándose en generar valor para los usuarios y eliminando actividades que no contribuyan directamente al desarrollo y validación de hipótesis clave.
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Mínimo Viable (MVP)" :icono="require('@/assets/curso/temas/32.svg')" style="background-color: #F3F3F3 ")
@@ -107,11 +107,11 @@
                   h3.mb-1 El Método Lean StartUp
                   p Para profundizar en los conocimientos relacionados con proyectos de investigación e innovación estudiados, se recomienda explorar el siguiente video.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones(href="https://youtu.be/aOfPd5iY8Jg" target="_blank")
                     span Ver video
                     i.fas.fa-arrow-right
-    #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.2 Design Thinking
+    #t_2_2.titulo-segundo(data-aos='fade-right').mt-5
+      h2 #[span 2.2] Design Thinking
     p.mb-4 El proceso de Design Thinking se estructura en cinco etapas clave, las cuales guían la creación de soluciones innovadoras centradas en el usuario. Cada una de estas etapas fomenta un enfoque iterativo, flexible y colaborativo.
     ImagenInfografica.color-primario.mb-5
       template(v-slot:imagen)
@@ -226,18 +226,19 @@
                   h3.mb-1 El proceso de pensamiento de diseño 
                   p Para complementar los conocimientos adquiridos sobre proyectos de investigación e innovación, se sugiere explorar el video indicado a continuación.
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones(href="https://youtu.be/_DkP38ebKIM" target="_blank")
                     span Ver video
                     i.fas.fa-arrow-right
       .col-lg-4.col-7: img(src='@/assets/curso/temas/58.png', alt='')
-    .bg-full-width.bg-color-2.mb-lg-5(style="background-color: #E7EFF8 ")
+
+    .bg-full-width.bg-color-2(style="background-color: #E7EFF8 ")
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-7.order-2
             h2.mb-4(data-aos="flip-up") Integración de Metodologías
             p.mb-4(data-aos="fade-right") Se invita a leer el documento Integración de Metodologías, que aborda la complementariedad de Lean Startup y Design Thinking, casos de éxito, la adaptación al contexto colombiano, herramientas de análisis de datos y gestión ágil de proyectos, destacando estrategias prácticas para impulsar la innovación con un enfoque adaptado y sostenible.
 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_Integracion_de_Metodologias.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -247,6 +248,53 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/59.png', alt='')
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/1KwoFHRO6us" target="_blank" rel="noopener noreferrer") Kanban Tool. (2021, marzo 22). ¿Qué es un Tablero Kanban?
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/7yIZOOXZjaU" target="_blank" rel="noopener noreferrer") OpenWebinars. (2018, diciembre 19). Qué es un Sprint en Scrum
+
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/272130" target="_blank" rel="noopener noreferrer") Cabero Fayos, I. (Coord.). (2024). Perspectivas contemporáneas en educación: innovación, investigación y transformación: (1 ed.). Dykinson.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/127961" target="_blank" rel="noopener noreferrer") Herrera Lemus, K. C. & Lazcano Herrera, C. F. (2020). Desarrollo de ambientes óptimos de innovación en la relación universidad-empresa: ( ed.). Editorial Universitaria.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/271726" target="_blank" rel="noopener noreferrer") Hervás-Gómez, C. (Coord.), Díaz-Noguera, M. D. (Coord.) & Florina Grosu, E. (Coord.). (2024). Transformando la educación: tecnología, innovación y sociedad en la era digital: (1 ed.). Dykinson.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/163543?page=6" target="_blank" rel="noopener noreferrer") Leiva Olivencia, J. (Coord.) & Matas Terrón, A. (Coord.). (2020). Investigación y experiencias de innovación pedagógica inclusiva en una sociedad intercultural y en red: ( ed.). Dykinson.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/217470" target="_blank" rel="noopener noreferrer") Martín Critikián, D. (Il.), Marugán Solís, F. (Il.) & Ramírez Barredo, B. (Il.). (2021). Innovación en la investigación y transferencia del conocimiento: técnicas, casos prácticos y aplicaciones: (1 ed.). Dykinson.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/253489" target="_blank" rel="noopener noreferrer") Martínez-Gómez, J. (Comp.). (2024). Innovación y competitividad en las organizaciones: (1 ed.). Universidad Católica Luis Amigó.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/271172" target="_blank" rel="noopener noreferrer") Miranda González, F. J. (2023). La gestión de la innovación en la empresa: (1 ed.). Servicio de Publicaciones de la Universidad de Extremadura.
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
     
 

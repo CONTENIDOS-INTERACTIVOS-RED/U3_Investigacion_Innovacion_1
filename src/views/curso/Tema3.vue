@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno(:subTitulo="'3. Aplicación sectorial '")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.overflow-hidden
     .bg-color-1.mb-5(data-aos="fade-up" style="background-color: #C2F1F8")
       .row.justify-content-center.align-items-center
         .col-lg
@@ -10,7 +10,7 @@
         .col-lg-auto
           figure
             img(src='@/assets/curso/temas/60.png', alt='')
-    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+    .titulo-figura.color-acento-contenido(data-aos='fade-right')
       h5 Figura 3.
       span Aplicaciones de la innovación en distintos sectores.
     img(src='@/assets/curso/temas/61.svg', alt='')
@@ -66,7 +66,7 @@
                   h3.mb-1 Tecnología e innovación para la vida
                   p Para ampliar sus conocimientos en los temas de proyectos de investigación e innovación que has estudiado, le sugerimos explorar el siguiente vídeo:
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones(href="https://youtu.be/QzSXs4TXpwM" target="_blank")
                     span Ver video
                     i.fas.fa-arrow-right
     .row.justify-content-center.mb-5
@@ -137,19 +137,19 @@
           .p-5.pb-0
             img(src="@/assets/curso/temas/72.png", style="max-width: 100%")
     p.mb-4 Este enfoque permite superar desafíos locales y posicionar los proyectos como soluciones competitivas en el ámbito global.
-    .bg-full-width.bg-color-2.mb-lg-5(style="background-color: #E7EFF8 ")
+    .bg-full-width.bg-color-2(style="background-color: #E7EFF8 ")
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-7.order-2
-            h2.mb-4(data-aos="flip-up") Integración de Metodologías
-            p.mb-4(data-aos="fade-right") Se invita a leer el documento Integración de Metodologías, que aborda la complementariedad de Lean Startup y Design Thinking, casos de éxito, la adaptación al contexto colombiano, herramientas de análisis de datos y gestión ágil de proyectos, destacando estrategias prácticas para impulsar la innovación con un enfoque adaptado y sostenible.
+            h2.mb-4(data-aos="flip-up") Sector Servicios
+            p.mb-4(data-aos="fade-right") Se invita a leer el documento Sector Servicios, el cual aborda cómo innovar en este sector mediante metodologías específicas, el diseño de experiencias centradas en el usuario, y la implementación de la transformación digital. Además, se presentan enfoques prácticos y casos de éxito, adaptados al contexto colombiano, que destacan estrategias para modernizar servicios y maximizar su impacto en diferentes industrias.
 
 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_Sector_Servicios.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
-                p <strong>Anexo. </strong> Integración de Metodologías.
+                p <strong>Anexo. </strong> Sector Servicios.
 
           .col-lg-5
             figure(data-aos="zoom-in")
@@ -157,7 +157,56 @@
 
 
 
-    
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/-ihwXIqCq34" target="_blank" rel="noopener noreferrer") ANDI Colombia. (2022, mayo 24). Dinámica de la innovación empresarial en Colombia
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/Jo6WxwSWuHU" target="_blank" rel="noopener noreferrer") La innovación social colombiana reconocida por el BID
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/f6chBIXMNu8" target="_blank" rel="noopener noreferrer") Ministerio TIC Colombia. (2022, diciembre 19). Entrega laboratorios de innovación educativa a niños y jóvenes
+
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/271726" target="_blank" rel="noopener noreferrer") Hervás-Gómez, C. (Coord.), Díaz-Noguera, M. D. (Coord.) & Florina Grosu, E. (Coord.). (2024). Transformando la educación: tecnología, innovación y sociedad en la era digital: (1 ed.). Dykinson.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/127961" target="_blank" rel="noopener noreferrer") Herrera Lemus, K. C. & Lazcano Herrera, C. F. (2020). Desarrollo de ambientes óptimos de innovación en la relación universidad-empresa: ( ed.). Editorial Universitaria.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/163543?page=6" target="_blank" rel="noopener noreferrer") Leiva Olivencia, J. (Coord.) & Matas Terrón, A. (Coord.). (2020). Investigación y experiencias de innovación pedagógica inclusiva en una sociedad intercultural y en red: ( ed.). Dykinson.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/217470" target="_blank" rel="noopener noreferrer") Martín Critikián, D. (Il.), Marugán Solís, F. (Il.) & Ramírez Barredo, B. (Il.). (2021). Innovación en la investigación y transferencia del conocimiento: técnicas, casos prácticos y aplicaciones: (1 ed.). Dykinson.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/253489" target="_blank" rel="noopener noreferrer") Martínez-Gómez, J. (Comp.). (2024). Innovación y competitividad en las organizaciones: (1 ed.). Universidad Católica Luis Amigó.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/271172" target="_blank" rel="noopener noreferrer") Miranda González, F. J. (2023). La gestión de la innovación en la empresa: (1 ed.). Servicio de Publicaciones de la Universidad de Extremadura.
+
+
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
+
 
 </template>
 

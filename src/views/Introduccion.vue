@@ -5,7 +5,7 @@
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3
         .bg-color-1.p-4(data-aos="fade-left").mb-4
-          .row.align-items-center
+          .row.align-items-start
             .col-lg-auto
               img(src="@/assets/curso/temas/1.svg", style="max-width: 90px").mx-auto
             .col-lg

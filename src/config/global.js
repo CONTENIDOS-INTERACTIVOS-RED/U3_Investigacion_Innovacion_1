@@ -109,132 +109,130 @@ export default {
   },
   referencias: [
     {
-      referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2), https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
-      link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
-    },
-    {
-      referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
+      referencia: '',
       link: '',
-    },
-    {
-      referencia:
-        'Beyer, M. (2022, agosto 10). Las mayores centrales solares del mundo.10: Noor Abu Dhabi (Emiratos Árabes Unidos). pv magazine Latin America.',
-      link:
-        'https://www.pv-magazine-latam.com/2022/08/10/las-mayores-centrales-solares-del-mundo-10-noor-abu-dhabi-emiratos-arabes-unidos/',
-    },
-    {
-      referencia:
-        'Binns, R. (2018). Ethics in artificial intelligence: A comprehensive guide to understanding the ethical implications of AI. Springer.',
-      link: '',
-    },
-    {
-      referencia:
-        'Carroll, A. B. (2013). La dimensión económica del desarrollo sostenible. San Vicente (Alicante), España: ECU.',
-      link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/62332?page=172',
-    },
-    {
-      referencia:
-        'De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Rio de Janeiro (República Federativa del Brasil., aprobada en Estocolmo.',
-      link: '',
-    },
-    {
-      referencia:
-        'El promedio mundial, G. a. su P. G. el P. C. C. I. S. Q. S., & De, C. C. un G. P. en E. F. E. I. E. Q. el P. en el P. es. (s/f). Energía solar en Colombia. Gov.co. Recuperado el 9 de noviembre de 2024, de',
-      link:
-        'https://repositorio.etechsolutions.com/bitstream/handle/123456789/56/22%20-%20Energ%C3%ADa%20solar%20colombia.pdf?sequence=1&isAllowed=y',
-    },
-    {
-      referencia:
-        'García Peregrin, E. (2018). Bioética: temas para el debate. Vol. 2: (ed.). Bubok Publishing S.L.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/51423',
-    },
-    {
-      referencia:
-        'Garza Grimaldo, J. G. & Valqui Cachi, C. (2017). Los valores en la dialéctica de la humanidad y la naturaleza en el siglo XXI: ( ed.). Ediciones y Gráficos Eón.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/41138',
-    },
-    {
-      referencia:
-        'Naciones Unidas. (2015). Agenda 2030 para el Desarrollo Sostenible.',
-      link: 'https://www.un.org/sustainabledevelopment/es/agenda2030/',
-    },
-    {
-      referencia:
-        'Naciones Unidas. (2022). Derecho a un medio ambiente limpio, saludable y sostenible.',
-      link: 'https://www.un.org/es/climatechange',
-    },
-    {
-      referencia:
-        'Núñez de Castro, I. (2017). La bioética: un camino para el presente: ( ed.). ITESO - Instituto Tecnológico y de Estudios Superiores de Occidente.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/40950',
-    },
-    {
-      referencia:
-        'Organización Internacional del Trabajo [OIT]. (1989). Convenio sobre los pueblos indígenas y tribales, 1989 (No. 169).',
-      link:
-        'https://www.ilo.org/dyn/normlex/en/f?p=1000:12100:0::NO:12100:P12100_INSTRUMENT_ID:312314',
-    },
-    {
-      referencia:
-        'Pinilla Forero, J. (2022). Ética y bioética en la práctica profesional. Revista Colombiana de Ciencias Administrativas, 4 (1), 78-93: ( ed.). Fundación Universitaria San Mateo.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/219184',
-    },
-    {
-      referencia:
-        'Política de Turismo Sostenible: "Unidos por la Naturaleza". (s/f). Gov.co. Recuperado el 9 de noviembre de 2024, de',
-      link:
-        'https://www.mincit.gov.co/minturismo/calidad-y-desarrollo-sostenible/politicas-del-sector-turismo/politica-de-turismo-sostenible',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Análisis PESTEL',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'herramienta de análisis del entorno que examina factores políticos, económicos, sociales, tecnológicos, ecológicos y legales.',
     },
     {
-      termino: 'Cambio Climático',
+      termino: 'Análisis predictivo',
       significado:
-        'alteraciones a largo plazo en las condiciones climáticas globales, en gran parte debido a la actividad humana (como la quema de combustibles fósiles), que afectan a los ecosistemas, la biodiversidad y las sociedades humanas, especialmente en términos de seguridad alimentaria y recursos hídricos.',
+        'técnica que utiliza datos históricos para predecir tendencias y comportamientos futuros.',
     },
     {
-      termino: 'Derechos Humanos',
+      termino: '<em>Blockchain</em>',
       significado:
-        'conjunto de derechos inherentes a todos los seres humanos, sin distinción alguna, que protegen la dignidad, la libertad, la igualdad, la seguridad y el bienestar de las personas, independientemente de su nacionalidad, género, etnia, religión, etc.',
+        'tecnología de registro distribuido que permite el almacenamiento seguro y transparente de información.',
     },
     {
-      termino: 'Ética en la Innovación',
+      termino: '<em>Brainstorming</em>',
       significado:
-        'disciplina que analiza las implicaciones éticas de los avances y las nuevas tecnologías, evaluando su impacto en la humanidad, el medio ambiente, y la equidad social, asegurando que las innovaciones se alineen con principios morales y de justicia.',
+        'técnica grupal para generar ideas creativas en la resolución de problemas.',
     },
     {
-      termino: 'Innovación Sostenible',
+      termino: 'Cinco Fuerzas de Porter',
       significado:
-        'desarrollo y aplicación de nuevas ideas, productos, procesos o servicios que no solo son económicamente viables, sino que también promueven la sostenibilidad ambiental, social y económica a largo plazo.',
+        'modelo de análisis competitivo que examina el poder de negociación de proveedores, clientes, competidores, nuevos entrantes y productos sustitutos.',
     },
     {
-      termino: 'Políticas Globales',
+      termino: '<em>Crowdsourcing</em>',
       significado:
-        'estrategias y medidas adoptadas a nivel internacional por gobiernos, organizaciones intergubernamentales y actores globales para abordar problemas mundiales como el cambio climático, la pobreza, la salud pública y la protección de los derechos humanos.',
+        'práctica de obtener información o aportes de un grupo grande de personas.',
     },
     {
-      termino: 'Responsabilidad Social Corporativa (RSC)',
+      termino: '<em>Design Thinking</em>',
       significado:
-        'compromiso voluntario de las empresas para contribuir al bienestar social y ambiental, más allá de su obligación legal, integrando principios éticos en sus prácticas de negocio.',
+        'metodología centrada en el usuario para resolver problemas de forma creativa e innovadora.',
     },
     {
-      termino: 'Sostenibilidad Ambiental',
+      termino: '<em>DevOps</em>',
       significado:
-        'principio que aboga por la conservación y el uso responsable de los recursos naturales para preservar la biodiversidad y los ecosistemas a largo plazo, asegurando un entorno saludable para las generaciones futuras.',
+        'conjunto de prácticas que combina el desarrollo de software y las operaciones IT.',
     },
     {
-      termino: 'Tecnologías Emergentes',
+      termino: 'Ecosistema de innovación',
       significado:
-        'tecnologías de última generación con el potencial de transformar industrias y sociedades, como la inteligencia artificial, la biotecnología, la nanotecnología y las energías renovables, que plantean nuevos retos éticos y sociales',
+        'red de actores y recursos que facilitan y apoyan la innovación en un territorio.',
+    },
+    {
+      termino: '<em>Edge Computing</em>',
+      significado: 'procesamiento de datos cerca del punto donde se generan.',
+    },
+    {
+      termino: 'Innovación frugal',
+      significado:
+        'enfoque que busca desarrollar soluciones con recursos limitados.',
+    },
+    {
+      termino: '<em>Insights</em>',
+      significado:
+        'información clave para la toma de decisiones estratégicas y el desarrollo de soluciones que crean valor real para los usuarios.',
+    },
+    {
+      termino: '<em>IoT (Internet of Things)</em>',
+      significado: 'red de objetos físicos conectados digitalmente.',
+    },
+    {
+      termino: '<em>Kanban</em>',
+      significado:
+        'sistema visual para gestionar y mejorar el flujo de trabajo.',
+    },
+    {
+      termino: '<em>KPIs</em>',
+      significado:
+        '(<em>Key Performance Indicators</em>): Indicadores clave de desempeño.',
+    },
+    {
+      termino: '<em>Lean Manufacturing</em>',
+      significado:
+        'metodología de mejora continua que busca eliminar los desperdicios en los procesos productivos, optimizando recursos y operaciones para generar el máximo valor al cliente',
+    },
+    {
+      termino: '<em>Lean Startup</em>',
+      significado:
+        'metodología para desarrollar negocios y productos basada en la experimentación.',
+    },
+    {
+      termino: 'Pivotar',
+      significado:
+        'realizar un cambio estratégico significativo en un proyecto o negocio.',
+    },
+    {
+      termino: 'SCAMPER',
+      significado: 'técnica de generación de ideas basada en verbos de acción.',
+    },
+    {
+      termino: 'SCRUM',
+      significado: 'marco de trabajo ágil para la gestión de proyectos.',
+    },
+    {
+      termino: '<em>Sprint</em>',
+      significado:
+        'período de tiempo definido para completar un conjunto de tareas.',
+    },
+    {
+      termino: '<em>Stakeholders</em>',
+      significado: 'partes interesadas en un proyecto.',
+    },
+    {
+      termino: '<em>Text Mining</em>',
+      significado:
+        'proceso de extraer información valiosa de datos textuales no estructurados.',
+    },
+    {
+      termino: '<em>WBS (Work Breakdown Structure)</em>',
+      significado:
+        'estructura de desglose del trabajo que divide un proyecto en componentes manejables.',
+    },
+    {
+      termino: '<em>WIP (Work In Progress)</em>',
+      significado:
+        'trabajo en progreso, cantidad de tareas que se están realizando simultáneamente.',
     },
   ],
 }
