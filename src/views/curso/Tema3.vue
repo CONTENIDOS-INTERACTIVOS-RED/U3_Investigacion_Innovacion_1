@@ -15,7 +15,11 @@
       span Aplicaciones de la innovación en distintos sectores.
     img(src='@/assets/curso/temas/61.svg', alt='')
     figcaption.mb-5 Fuente. El Autor, 2024.
-    h3 Sector tecnológico
+
+    #t_3_1.titulo-segundo(data-aos="flip-up")
+      h2 #[span 3.1] Sector tecnológico
+    
+
     p.mb-4 El sector tecnológico se encuentra en constante transformación debido al surgimiento de innovaciones disruptivas que redefinen los modelos de negocio y los entornos sociales. A continuación, se presentan las tendencias clave que están marcando el panorama de la innovación tecnológica y su impacto en diferentes contextos organizacionales.
     .bg-full-width.bg-slyder.p-5.mb-5
       SlyderA(tipo='b').bg-white
@@ -69,52 +73,103 @@
                   a.boton.color-acento-botones(href="https://youtu.be/QzSXs4TXpwM" target="_blank")
                     span Ver video
                     i.fas.fa-arrow-right
-    .row.justify-content-center.mb-5
-      .col-lg-9.mb-lg-0.mb-3
-        h3 Metodologías específicas del sector
-        p.mb-0 El dominio de metodologías específicas del sector tecnológico es fundamental para garantizar la efectividad en la gestión de proyectos de innovación. En el contexto colombiano, esto implica no solo implementar marcos globales como DevOps, metodologías ágiles o Design Thinking, sino también adaptarlos a las particularidades del mercado local. La capacidad de ajustar estas herramientas según las limitaciones y oportunidades de cada proyecto resulta esencial para maximizar su impacto.
-          br
-          br
-          |Enfoques metodológicos sugeridos:
-      .col-lg-3.col-7:  img(src='@/assets/curso/temas/67.png', alt='Texto que describa la imagen')
-    .row.justify-content-center.align-items-stretch.mb-5
-      .col-lg-3.mb-4(data-aos="zoom-in-up")
-        .bg-color-white.box-shadow.px-4.py-5.h-100
-          img.mx-auto.d-block.mb-4(
-            src="@/assets/curso/temas/68.svg"
-            alt=""
-            style="width: 90px"
-          )
-          h4.text-center DevOps
-          p.mb-0.text-center Mejora la colaboración entre desarrollo y operaciones para entregar software más rápido.
-      .col-lg-3.mb-4(data-aos="zoom-in-up")
-        .bg-color-white.box-shadow.px-4.py-5.h-100
-          img.mx-auto.d-block.mb-4(
-            src="@/assets/curso/temas/69.svg"
-            alt=""
-            style="width: 90px"
-          )
-          h4.text-center Metodologías ágiles
-          p.mb-0.text-center SCRUM o Kanban  para proyectos que requieren adaptación constante a las necesidades locales.
-      .col-lg-3.mb-4(data-aos="zoom-in-up")
-        .bg-color-white.box-shadow.px-4.py-5.h-100
-          img.mx-auto.d-block.mb-4(
-            src="@/assets/curso/temas/70.svg"
-            alt=""
-            style="width: 90px"
-          )
-          h4.text-center.fst-italic Design Thinking
-          p.mb-0.text-center Para resolver problemas centrados en el usuario y desarrollar soluciones innovadoras.
-      .col-lg-3.mb-4(data-aos="zoom-in-up")
-        .bg-color-white.box-shadow.px-4.py-5.h-100
-          img.mx-auto.d-block.mb-4(
-            src="@/assets/curso/temas/71.svg"
-            alt=""
-            style="width: 90px"
-          )
-          h4.text-center Innovación frugal
-          p.mb-0.text-center Creación de soluciones accesibles con recursos limitados, considerando el contexto económico local.
-    p.mb-4 La investigación de Martínez-Gómez (2024) destaca la importancia de adaptar las mejores prácticas internacionales a las condiciones específicas de mercados emergentes como el colombiano. Este enfoque metodológico contextualizado permite optimizar recursos y garantizar resultados sostenibles.
+
+
+    h2.mb-5 Casos de estudio colombianos
+
+    .row.mb-5
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/tema3/1.png", data-aos="zoom-in")
+      .col-lg-8
+        p(data-aos="fade-left").mb-5 En el contexto de la innovación tecnológica en Colombia, analizar casos de éxito locales es esencial para fortalecer y desarrollar el ecosistema tecnológico del país. Este análisis implica identificar factores clave que han impulsado el éxito de iniciativas, las barreras enfrentadas y las lecciones que pueden aplicarse a otros proyectos. Es necesario situar estos casos en el marco socioeconómico colombiano, considerando elementos como el acceso a recursos, las dinámicas culturales y las características específicas del mercado local.
+    
+        .bg-color-9.p-4(data-aos="fade-left").mb-4
+          .row.align-items-start
+            .col-lg-auto
+              img(src="@/assets/curso/tema3/2.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 Por ejemplo, iniciativas como Platzi y Rappi  han demostrado la capacidad de emprendimientos tecnológicos colombianos para escalar internacionalmente. Estos casos reflejan la importancia de combinar estrategias de desarrollo tecnológico con un conocimiento profundo de las necesidades del mercado. Estas experiencias también resaltan la relevancia de la colaboración entre el sector privado, académico y gubernamental para superar barreras como el acceso a financiación o la falta de infraestructura tecnológica robusta.
+
+
+    .row.mb-4
+      .col-lg-8
+        p(data-aos="fade-left").mb-5 Una estrategia para promover la documentación y el aprendizaje de estos casos es desarrollar una plataforma nacional de gestión del conocimiento que incluya:
+    
+        .bg-color-10.p-4.py-lg-5(data-aos="fade-left").mb-5
+          .ps-3
+            ul.lista-ul--color.color-dark.mb-0
+              li.mb-2
+                i.fas.fa-arrow-circle-right
+                | #[b Estudios de caso interactivos:] descripciones detalladas de experiencias exitosas.
+              li.mb-2
+                i.fas.fa-arrow-circle-right
+                | #[b Narrativas multimedia:] uso de videos y presentaciones interactivas.
+              li.mb-2
+                i.fas.fa-arrow-circle-right
+                | #[b Métricas de impacto:] análisis cuantitativo de resultados.
+              li.mb-0
+                i.fas.fa-arrow-circle-right
+                | #[b Lecciones aprendidas:] reflexiones que faciliten la replicación de éxitos.
+
+        p(data-aos="fade-left").mb-5 Adicionalmente, esta plataforma podría incluir herramientas colaborativas que permitan a emprendedores, investigadores y empresas compartir sus experiencias, fomentando un aprendizaje colectivo.
+          
+    
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/tema3/3.png", data-aos="zoom-in")
+    
+    
+    .bg-full-width.bg-gradiente-1
+      .px-4.px-md-5.py-4
+
+    
+        .row.justify-content-center.mb-5
+          .col-lg-9.mb-lg-0.mb-3
+            h2.mb-4 Metodologías específicas del sector
+            p.mb-0 El dominio de metodologías específicas del sector tecnológico es fundamental para garantizar la efectividad en la gestión de proyectos de innovación. En el contexto colombiano, esto implica no solo implementar marcos globales como DevOps, metodologías ágiles o Design Thinking, sino también adaptarlos a las particularidades del mercado local. La capacidad de ajustar estas herramientas según las limitaciones y oportunidades de cada proyecto resulta esencial para maximizar su impacto.
+              br
+              br
+              |Enfoques metodológicos sugeridos:
+          .col-lg-3.col-7:  img(src='@/assets/curso/temas/67.png', alt='Texto que describa la imagen')
+        .row.justify-content-center.align-items-stretch.mb-5
+          .col-lg-3.mb-4(data-aos="zoom-in-up")
+            .bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/temas/68.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.text-center DevOps
+              p.mb-0.text-center Mejora la colaboración entre desarrollo y operaciones para entregar software más rápido.
+          .col-lg-3.mb-4(data-aos="zoom-in-up")
+            .bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/temas/69.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.text-center Metodologías ágiles
+              p.mb-0.text-center SCRUM o Kanban  para proyectos que requieren adaptación constante a las necesidades locales.
+          .col-lg-3.mb-4(data-aos="zoom-in-up")
+            .bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/temas/70.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.text-center.fst-italic Design Thinking
+              p.mb-0.text-center Para resolver problemas centrados en el usuario y desarrollar soluciones innovadoras.
+          .col-lg-3.mb-4(data-aos="zoom-in-up")
+            .bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/temas/71.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.text-center Innovación frugal
+              p.mb-0.text-center Creación de soluciones accesibles con recursos limitados, considerando el contexto económico local.
+        p.mb-4 La investigación de Martínez-Gómez (2024) destaca la importancia de adaptar las mejores prácticas internacionales a las condiciones específicas de mercados emergentes como el colombiano. Este enfoque metodológico contextualizado permite optimizar recursos y garantizar resultados sostenibles.
     div(style="background-color: #EAFAFC").mb-4
       .row.justify-content-center
         .col-lg-7.mb-lg-0.mb-3
@@ -156,6 +211,10 @@
               img(src='@/assets/curso/temas/73.png', alt='')
 
 
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
 
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
@@ -176,18 +235,9 @@
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
               a(href="https://youtu.be/f6chBIXMNu8" target="_blank" rel="noopener noreferrer") Ministerio TIC Colombia. (2022, diciembre 19). Entrega laboratorios de innovación educativa a niños y jóvenes
 
-
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/271726" target="_blank" rel="noopener noreferrer") Hervás-Gómez, C. (Coord.), Díaz-Noguera, M. D. (Coord.) & Florina Grosu, E. (Coord.). (2024). Transformando la educación: tecnología, innovación y sociedad en la era digital: (1 ed.). Dykinson.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/127961" target="_blank" rel="noopener noreferrer") Herrera Lemus, K. C. & Lazcano Herrera, C. F. (2020). Desarrollo de ambientes óptimos de innovación en la relación universidad-empresa: ( ed.). Editorial Universitaria.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/163543?page=6" target="_blank" rel="noopener noreferrer") Leiva Olivencia, J. (Coord.) & Matas Terrón, A. (Coord.). (2020). Investigación y experiencias de innovación pedagógica inclusiva en una sociedad intercultural y en red: ( ed.). Dykinson.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
@@ -220,3 +270,113 @@ export default {
   },
 }
 </script>
+
+<script>
+import Actividad from '@/components/actividad/Actividad.vue'
+export default {
+  name: 'Tema3',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Matemática financiera',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              '¿Qué aspecto es más importante en el diseño de experiencias de usuario?',
+            opciones: [
+              { id: 'a', texto: 'Tecnología avanzada', esCorrecta: false },
+              {
+                id: 'b',
+                texto: 'Comprensión de necesidades y comportamientos',
+                esCorrecta: true,
+              },
+              { id: 'c', texto: 'Presupuesto extenso', esCorrecta: false },
+              { id: 'd', texto: 'Marketing intensivo', esCorrecta: false },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Qué tipo de indicadores son necesarios para medir el impacto de la innovación?',
+            opciones: [
+              { id: 'a', texto: 'Solo financieros', esCorrecta: false },
+              {
+                id: 'b',
+                texto: 'Cuantitativos y cualitativos integrados',
+                esCorrecta: true,
+              },
+              { id: 'c', texto: 'Únicamente cualitativos', esCorrecta: false },
+              { id: 'd', texto: 'Exclusivamente técnicos', esCorrecta: false },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto:
+              'La transformación digital se limita a la actualización de equipos y software.',
+            opciones: [
+              { id: 'a', texto: 'Verdadero', esCorrecta: false },
+              { id: 'b', texto: 'Falso', esCorrecta: true },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto: '¿Qué caracteriza principalmente a la economía circular?',
+            opciones: [
+              { id: 'a', texto: 'Mayor producción', esCorrecta: false },
+              {
+                id: 'b',
+                texto: 'Optimización y reutilización de recursos',
+                esCorrecta: true,
+              },
+              { id: 'c', texto: 'Consumo intensivo', esCorrecta: false },
+              { id: 'd', texto: 'Desecho rápido', esCorrecta: false },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto: '¿Qué elemento es más importante en proyectos comunitarios?',
+            opciones: [
+              { id: 'a', texto: 'Tecnología avanzada', esCorrecta: false },
+              { id: 'b', texto: 'Empoderamiento local', esCorrecta: true },
+              { id: 'c', texto: 'Financiamiento externo', esCorrecta: false },
+              { id: 'd', texto: 'Control centralizado', esCorrecta: false },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+}
+</script>
+
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>

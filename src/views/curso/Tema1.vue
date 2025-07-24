@@ -27,7 +27,9 @@
             .col-lg
               p.mb-0 La identificación de oportunidades inicia con un análisis estratégico que permite detectar posibilidades innovadoras en diversos contextos. Este proceso es fundamental para orientar investigaciones y proyectos hacia objetivos concretos y viables.
       .col-lg-4.col-7: img(src="@/assets/curso/temas/6.png", style="max-width: 100%")
-    h3 Análisis del entorno
+    h2 Análisis del entorno
+    p.mb-4 El análisis del entorno constituye un punto de partida esencial para identificar oportunidades significativas de innovación, especialmente desde la perspectiva de un investigador e innovador. Este proceso requiere una comprensión profunda de metodologías sistemáticas como PESTEL y las Cinco Fuerzas de Porter. 
+
     .row.justify-content-center.mb-5
       .col-lg-4.col-7.mb-lg-0.mb-3: img(src="@/assets/curso/temas/7.png", style="max-width: 100%")
       .col-lg-8
@@ -92,9 +94,9 @@
           p.mb-0.text-center Validación y dimensionamiento de oportunidades mediante herramientas estadísticas y #[em big data.]
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
-        h3 Relevancia de sistemas de vigilancia tecnológica
+        h2 Relevancia de sistemas de vigilancia tecnológica
         p.mb-4 Según Martín Critikián et al. (2021), implementar sistemas de vigilancia tecnológica permite monitorear publicaciones científicas, patentes y desarrollos tecnológicos, complementando este análisis con estudios de tendencias sociales y del mercado. Esta práctica facilita la anticipación de cambios importantes y la identificación de necesidades no satisfechas, posicionando proyectos innovadores de manera estratégica.
-        h3 Aplicación práctica
+        h2 Aplicación práctica
         p.mb-0 Un ejemplo aplicado sería la creación de una plataforma de inteligencia colectiva que utilice herramientas como crowdsourcing y machine learning para recopilar, categorizar y priorizar necesidades emergentes de usuarios. Esta integración de datos en tiempo real permite responder rápidamente a las demandas dinámicas de un público objetivo, creando un ecosistema adaptable y efectivo para la innovación.
       .col-lg-4.col-7
         img(src="@/assets/curso/temas/12.png", style="max-width: 100%")
@@ -120,7 +122,7 @@
           .col-lg-7
             h4 Pensamiento lateral
             p.mb-0 Estrategias para romper esquemas tradicionales y explorar perspectivas no convencionales.
-    h3 Aplicación práctica
+    h2 Aplicación práctica
     p.mb-4 Morales Cevallos et al. (2023) recomiendan crear un entorno colaborativo que permita el uso de herramientas físicas y virtuales para la ideación. Por ejemplo, un laboratorio de innovación híbrido puede incluir:
     div(style="background-color: #EAFAFC")
       .row.justify-content-center
@@ -148,7 +150,7 @@
           img(src="@/assets/curso/temas/18.svg", style="max-width: 90px").mx-auto
         .col-lg
           p.mb-0 Este enfoque asegura un proceso creativo enriquecedor, colaborativo y alineado con los objetivos del proyecto, maximizando el impacto de las ideas generadas.
-    h3 Brainstorming o lluvia de ideas
+    h2 Brainstorming o lluvia de ideas
     p.mb-4 La lluvia de ideas, conocida también como brainstorming, es una técnica creativa utilizada para generar soluciones innovadoras en equipo. Su propósito es fomentar la libre expresión de ideas, sin juicios ni restricciones, promoviendo un ambiente donde cada participante pueda contribuir con propuestas originales, por más inusuales que parezcan. Es una herramienta clave para impulsar la creatividad colectiva y resolver desafíos de manera colaborativa.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/au.svg', alt='')
@@ -156,11 +158,151 @@
         TarjetaAudio.color-primario.bg-color-white.mb-3(
           texto="<em>Brainstorming</em> o lluvia de ideas"
           tiempo="00:00"
-          :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+          :audio="require('../../assets/curso/podcast/podcast1.mp3')"
         )
     //todo! Añadir AUDIO CARD 
-    #t_1_4.titulo-segundo(data-aos='fade-right')
-      h2 #[span 1.4] Diseño y planificación
+
+    #t_1_4.titulo-segundo(data-aos="flip-up")
+      h2 #[span 1.4] Análisis de viabilidad
+
+    .bg-full-width.bg-gradiente-1
+      .px-4.px-md-5.py-4
+        p(data-aos="fade-right") El análisis de viabilidad es crucial para determinar si una propuesta innovadora es factible técnica, operativa y económicamente. Este análisis se realiza aplicando herramientas estructuradas, como el análisis de costo-beneficio y la evaluación de riesgos. El objetivo es identificar proyectos con mayores probabilidades de éxito, asegurando su alineación con los objetivos estratégicos.
+
+        div.row.justify-content-center.align-items-stretch.mb-5
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema1/1.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.text-center.mb-3 Técnico
+              p.mb-0.text-center Verifica la disponibilidad de tecnologías, conocimientos y recursos necesarios para la ejecución.
+        
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema1/2.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.text-center.mb-3 Económico
+              p.mb-0.text-center Evalúa la rentabilidad potencial y el costo-beneficio del proyecto.
+        
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema1/3.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.text-center.mb-3 Operativo
+              p.mb-0.text-center Analiza la capacidad organizacional y la infraestructura para implementar la propuesta.
+        
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema1/4.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.text-center.mb-3 Estratégico
+              p.mb-0.text-center Considera la alineación del proyecto con los objetivos organizacionales y del mercado.
+        
+        h2.mb-5 Impacto
+
+        p.mb-4 La evaluación del impacto considera los efectos de la propuesta a corto, mediano y largo plazo en dimensiones económicas, sociales y ambientales. Este análisis incluye la medición de beneficios tangibles e intangibles, permitiendo priorizar proyectos que generen valor sostenible.
+
+        div.row.justify-content-center.align-items-stretch.mb-5
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema1/5.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.text-center.mb-3 Económica
+              p.mb-0.text-center Incremento de ingresos, reducción de costos, aumento del ROI.
+        
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema1/6.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.text-center.mb-3 Social
+              p.mb-0.text-center Mejoras en la  calidad de vida, acceso a servicios, inclusión social.
+        
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema1/7.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.text-center.mb-3 Ambiental
+              p.mb-0.text-center Reducción de emisiones, gestión sostenible de recursos.
+        
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema1/8.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.text-center.mb-3 Organizacional
+              p.mb-0.text-center Mejora en eficiencia, cultura innovadora, fortalecimiento de capacidades internas.
+
+        h2.mb-5 Factibilidad
+        p.mb-4 El análisis de factibilidad examina la capacidad real de implementar un proyecto considerando recursos disponibles, limitaciones y barreras potenciales. Este análisis incluye aspectos financieros, tecnológicos y humanos, asegurando una planificación realista.
+
+        div.row.justify-content-center.align-items-stretch.mb-4
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema1/9.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.text-center.mb-3 Financiera
+              p.mb-0.text-center Disponibilidad de fondos y capacidad de inversión para el proyecto.
+        
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema1/10.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.text-center.mb-3 Tecnológica
+              p.mb-0.text-center Acceso a las herramientas y plataformas necesarias para la ejecución.
+        
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema1/11.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.text-center.mb-3 Humana
+              p.mb-0.text-center Capacidades y competencias del equipo para llevar a cabo las tareas.
+        
+          div.col-lg-3.mb-4(data-aos="zoom-in-up")
+            div.bg-color-white.box-shadow.px-4.py-5.h-100
+              img.mx-auto.d-block.mb-4(
+                src="@/assets/curso/tema1/12.svg"
+                alt=""
+                style="width: 90px"
+              )
+              h4.text-center.mb-3 Escalabilidad
+              p.mb-0.text-center Potencial del proyecto para crecer y adaptarse a nuevas demandas o contextos. 
+    
+    
+
+    #t_1_5.titulo-segundo(data-aos='fade-right')
+      h2 #[span 1.5] Diseño y planificación
     p.mb-4 El diseño de un plan de acción incluye dividir el proyecto en tareas claras, establecer cronogramas, identificar hitos y definir entregables. Este proceso asegura la ejecución eficiente y el control de cada fase del proyecto.
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-3.mb-4(data-aos="zoom-in-up")
@@ -199,7 +341,7 @@
           )
           h4.text-center Entregables
           p.mb-0.text-center Definir productos o resultados concretos esperados en cada fase.
-    h3 Asignación de recursos
+    h2 Asignación de recursos
     p.mb-4 La asignación de recursos implica distribuir eficientemente los elementos tangibles e intangibles necesarios para garantizar el éxito del proyecto.
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
@@ -227,7 +369,7 @@
           .col-lg-5
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/24.png', alt='')
-    h3 Aprendizajes y ajustes necesarios
+    h2 Aprendizajes y ajustes necesarios
     p.mb-4 La identificación de aprendizajes permite que cada proyecto no solo cumpla con sus objetivos, sino que también enriquezca futuras iniciativas.
     .bg-full-width.bg-slyder.p-5.mb-5
       SlyderA(tipo='b').bg-white
@@ -265,7 +407,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-7.order-2
             h2.mb-4(data-aos="flip-up") Marco Legal y Ético
-            p.mb-4(data-aos="fade-right") Se invita a leer el documento Marco Legal y Ético , que destaca la protección de la propiedad intelectual y la integración de principios éticos en proyectos de innovación, promoviendo estrategias legales y una responsabilidad social sostenida.
+            p.mb-4(data-aos="fade-right") Se invita a leer el documento Marco Legal y Ético, que destaca la protección de la propiedad intelectual y la integración de principios éticos en proyectos de innovación, promoviendo estrategias legales y una responsabilidad social sostenida.
 
             a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_Marco_Legal_y_Etico.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
@@ -289,34 +431,13 @@
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
               a(href="https://youtu.be/Th7L-Mqidc8" target="_blank" rel="noopener noreferrer") CEDU Uninorte. (2021, marzo 23). Módulo 3 - Lección 1: Las 5 fuerzas de Porter. Caso de aplicación: Parte 1
 
-            //- Referencias con enlace
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/218471?page=3" target="_blank" rel="noopener noreferrer") Aznar Díaz, I. Rodríguez Jiménez, C. & Ramos Navas-Parejo, M. (2021). Desafíos de la investigación y la innovación educativa ante la sociedad inclusiva: (1 ed.). Dykinson.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/158312?page=6" target="_blank" rel="noopener noreferrer") Fernández Batanero, J. M. (2020). TIC y discapacidad: investigación e innovación educativa: ( ed.). Ediciones Octaedro, S.L.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/127379" target="_blank" rel="noopener noreferrer") García Cuevas, J. L. González Pérez, M. & Cabrera Miranda, J. R. (2020). Gestión universitaria del conocimiento y la innovación para el desarrollo local sostenible: ( ed.). Editorial Universitaria.
-
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://elibro.net/es/ereader/tecnologicadeloriente/229656?page=1" target="_blank" rel="noopener noreferrer") Gregorio Rojas, N. (2023). Metodología de la investigación para anteproyectos: (1 ed.). Universidad Abierta para Adultos (UAPA).
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/127961" target="_blank" rel="noopener noreferrer") Herrera Lemus, K. C. & Lazcano Herrera, C. F. (2020). Desarrollo de ambientes óptimos de innovación en la relación universidad-empresa: ( ed.). Editorial Universitaria.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/271726" target="_blank" rel="noopener noreferrer") Hervás-Gómez, C. (Coord.), Díaz-Noguera, M. D. (Coord.) & Florina Grosu, E. (Coord.). (2024). Transformando la educación: tecnología, innovación y sociedad en la era digital: (1 ed.). Dykinson.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/218623?page=3" target="_blank" rel="noopener noreferrer") Marín Marín, J. A. & Boffo, A. (2021). Retos de la investigación y la innovación en la sociedad del conocimiento: (1 ed.). Dykinson.
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

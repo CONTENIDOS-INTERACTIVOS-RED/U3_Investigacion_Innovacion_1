@@ -13,7 +13,10 @@
     .titulo-figura.color-acento-contenido(data-aos='fade-right')
       h5 Figura 2.
       span Herramientas para la gestión de proyectos de investigación e innovación.
-    img(src='@/assets/curso/temas/31.svg', alt='')
+
+    
+    figure.bg-color-info.p-4.p-md-5
+      img(src="@/assets/curso/tema2/f2.svg", data-aos="zoom-in", style="max-width: 846px").mx-auto
     figcaption.mb-5 Fuente. El Autor, 2024.
     #t_2_1.titulo-segundo(data-aos='fade-right').mt-5
       h2 #[span 2.1] Lean Startup
@@ -263,7 +266,6 @@
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
               a(href="https://youtu.be/7yIZOOXZjaU" target="_blank" rel="noopener noreferrer") OpenWebinars. (2018, diciembre 19). Qué es un Sprint en Scrum
 
-
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/272130" target="_blank" rel="noopener noreferrer") Cabero Fayos, I. (Coord.). (2024). Perspectivas contemporáneas en educación: innovación, investigación y transformación: (1 ed.). Dykinson.
@@ -275,10 +277,6 @@
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
               a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/271726" target="_blank" rel="noopener noreferrer") Hervás-Gómez, C. (Coord.), Díaz-Noguera, M. D. (Coord.) & Florina Grosu, E. (Coord.). (2024). Transformando la educación: tecnología, innovación y sociedad en la era digital: (1 ed.). Dykinson.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/163543?page=6" target="_blank" rel="noopener noreferrer") Leiva Olivencia, J. (Coord.) & Matas Terrón, A. (Coord.). (2020). Investigación y experiencias de innovación pedagógica inclusiva en una sociedad intercultural y en red: ( ed.). Dykinson.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
